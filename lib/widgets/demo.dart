@@ -7,6 +7,20 @@ class MyWidget extends StatelessWidget {
       Center(
         child: Column(
           children: <Widget>[
+            Row(
+              children: <Widget>[
+                RaisedButton(
+                  onPressed: () {},
+                  color: Colors.white,
+                  child: Text('Hello'),
+                ),
+                RaisedButton(
+                  onPressed: () {},
+                  color: Colors.white,
+                  child: Text('Hello')
+                ),
+              ],
+            ),
             RaisedButton(
               onPressed: () {},
               color: Colors.white,

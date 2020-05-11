@@ -8,9 +8,9 @@ class MyLayout extends StatelessWidget {
     return Center(
       child: Row(children: <Widget>[
         BlueBox(),
-        BlueBox(),
-        BlueBox(),
-        BlueBox()
+        Image.network(
+          'http://deepexi-moby.oss-cn-shenzhen.aliyuncs.com/saas/%E6%B5%8B%E8%AF%95%E7%BF%A1%E7%BF%A0-1589020684185.jpg',
+          )
       ],)
     );
   }
